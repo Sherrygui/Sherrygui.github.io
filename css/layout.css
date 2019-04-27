@@ -1,0 +1,484 @@
+
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+
+/*
+div, main, article, section, aside,
+hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. */
+/*	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding: 2em;
+	border: 1px solid #eee;
+}
+*/
+
+* .container {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%;
+}
+
+body{
+	background-color: #F2F0F1;
+	color: #67727A;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+
+}
+
+a{
+	color: #542189;
+}
+
+header{
+	background-color: rgba(77,51,104,0.9);
+	width: 100%;
+	margin-top: -18px;
+}
+
+#header-inner{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+#logo{
+	margin: 28px 20px 0 20px;
+	float:left;
+	width: 100px;
+	height: 60px;
+	background: url(../img/logo.png) no-repeat center;
+	background-size: contain;
+}
+/*Start Navigation*/
+nav{
+	float: right;
+	padding: 25px 20px 0 0;
+	height:100px;
+}
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(../img/nav.png) center;
+}
+
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+ul{
+	list-style-type: none;
+}
+nav ul li{
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #F5F5F5;
+}
+nav ul li a:hover{
+	color: #F9F956;
+}
+.current{
+	color: #F9F956;
+}
+/*End of Navigation*/
+
+/*---Home---*/
+.banner{
+	width: 100%;
+}
+.banner-inner{
+
+	margin: 0 auto;
+}
+/*End of banner*/
+
+.concept{
+	background-image: url(../img/concept_background2.png);
+	background-repeat: no-repeat;
+	text-align: justify;
+}
+
+.four-in-one{
+	/*background-image: url(../img/divider.png);
+	background-repeat: no-repeat;
+	background-position: top;*/
+	background-color: rgba(186,186,226,0.8);
+}
+.one-fourth{
+	margin-top: 4%;
+	float: left;
+	width: 20%;
+	margin-right: 4%;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.one-fourth-link{
+	text-decoration: none;
+	color: #677279;
+}
+
+.one-fourth-link:hover{
+	color: #F555;
+	background-color: rgba(205,205,255,0.8);
+	/* font-size: 150%; */
+	/* padding:2% 2% 0 2%; */
+
+}
+
+#f_event_s{
+	margin-left: 4%;
+}
+
+.fearture_event_time{
+	margin-top: 0.5em;
+
+}
+/*End of Feature Events*/
+
+footer{
+	background-color: rgba(77,51,104,0.9);
+	width: 100%;
+	height:80px;
+
+	/*position: absolute;
+	bottom: 0px;*/
+}
+
+.social{
+	margin: 0;
+}
+.social li{
+	display: inline-block;
+	margin: 1%;
+
+
+}
+.social i {
+	font-size: 300%;
+	color:#CDCDFF;
+	padding: 5% 5% 5% 4%;
+}
+
+.social i:hover{
+	color:#F5F5F5;
+}
+
+.copy_right{
+	float: right;
+	margin:0;
+	padding:30px 10px 0 10px;
+}
+
+/*---About---*/
+
+article{
+	float: left;
+	margin: 0 auto;
+	width: 60%;
+}
+#about_p{
+	font-size: 120%;
+
+}
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 36%;
+	height: auto;
+}
+
+#about_d_e{
+	margin: 2%;
+	padding: 2% 0 2% 0;
+	background-color: #5D4775;
+}
+
+/*---Event Grid--*/
+.center_div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.two-in-one{
+	padding-left: 10%;
+	width: 100%;
+
+
+}
+.one-twice{
+	float: left;
+	width: 40%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+}
+
+.one-twice-link{
+	text-decoration: none;
+	color: #542189;
+}
+
+.one-twice-link:hover{
+	color: #F555;
+	background-color: rgba(205,205,255,0.8);
+	font-size: 140%;
+	padding:2% 2% 0 2%;
+	padding-bottom: 1em;
+
+}
+
+.schedule_link{
+	text-align: center;
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+.schedule_link a{
+	display: inline-block;
+	text-decoration: none;
+	color: #542189;
+}
+
+.schedule_link:hover a{
+	color: #F555;
+}
+
+/*---Event Details---*/
+.learnmore{
+	text-decoration: none;
+}
+.learnmore:hover{
+	color: #F555;
+}
+
+.events_detail_img{
+	padding-left: 5%;
+}
+
+/*---Location---*/
+#location_info{
+	margin-top: 20px;
+}
+#map{
+	text-align: center;
+}
+
+/*---Contact---*/
+#contact{
+	text-align: center;
+}
+form{
+	text-align: center;
+	margin-bottom: 200px;
+	padding: 5% 0 5% 0;
+}
+
+label{
+	display: inline-block;
+	width: 6em;
+	font-size: 150%;
+	text-align: left;
+}
+input{
+	width: 20%;
+	height: 30px;
+	border: 2px;
+	border-color: #555;
+	border-style: solid;
+
+}
+
+#contact-form-message{
+	width: 20%;
+	height: 100px;
+}
+#submit_bottom{
+	width: 20%;
+	font-size:130%;
+	color:#542189;
+	background-color: #CDCDFF;
+}
+
+#submit_bottom:hover{
+	background-color: #F555;
+	color:#F5F5F5;
+}
+
+.contact-form{
+	margin-bottom: 5%;
+}
+
+/*---Schedule---*/
+
+.roommap{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*-------Media-------*/
+
+@media screen and (max-width: 817px){
+	header{
+		position: fixed;
+	}
+
+	#logo{
+		margin:28px 0 0 10px;
+		background: url(../img/logo_mobile.png) no-repeat center;
+	}
+
+	#menu-icon{
+		display: inline-block;
+		margin-top: 15px;
+	}
+
+	nav ul,nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding:20px;
+		background-color: rgba(77,51,104,0.9);
+		right: 20px;
+		top: 60px;
+		border: 1px solid #FFF;
+		border-radius: 5px 0 5px 5px;
+		width: 50%;
+	}
+
+	nav:hover ul{
+		display: block;
+	}
+
+	nav li{
+		text-align: center;
+		width: 100%;
+		padding: 10px 0 10px 0;
+	}
+	.banner{
+		padding-top:82px;
+	}
+	.container{
+		padding-top:82px;
+	}
+
+	.one-fourth{
+		width: 80%;
+		text-align: center;
+		margin-left: 10%;
+		margin-top: 1em;
+	}
+
+	#feature_h2{
+		margin-left: 10%;
+		padding-left: 0;
+	}
+
+	#f_event_s{
+		margin-left: 10%;
+	}
+
+	article{
+		width: 100%;
+	}
+
+	aside{
+		width: 100%;
+	}
+	#about_d_e{
+		margin-right: 0;
+	}
+
+	.one-twice{
+		width: 100%;
+	}
+
+	.one-twice-link{
+		text-align: center;
+	}
+
+	.two-in-one{
+		padding: 0;
+	}
+
+	.center_div{
+		width: 90%;
+	}
+
+	#event_h1{
+		padding-left: 0;
+	}
+
+
+	label{
+		width: 7em;
+		font-size: 125%;
+	}
+
+	input,
+	#contact-form-message{
+		width: 40%;
+	}
+	.contact-form{
+		margin-bottom: 8%;
+	}
+
+	#submit_bottom{
+		width: 30%;
+	}
+
+	footer{
+		height:50px;
+	}
+
+	.social i{
+		font-size: 180%;
+		margin: 5px 5px 0 0;
+	}
+
+	.social {
+		margin-left: -20px;
+	}
+
+	.copy_right{
+		padding: 15px 5px 0 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}
