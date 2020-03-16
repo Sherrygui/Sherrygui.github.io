@@ -1,0 +1,702 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+/*
+@import 'vendor/normalize.css';  */
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+.section1-BG{
+    background-image: url(../img/Daisy/BlueHeaderBG-withStars.png);
+    min-height: 637px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.divider{
+  border-bottom: #FBF8EC solid 3px;
+  width: 5%;
+  margin: auto;
+}
+
+
+.header-subtitle, .header-title{
+  text-align:center;
+}
+
+
+.header-subtitle{
+  text-transform: uppercase;
+}
+
+.header-intro{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.BlueArrow{
+  text-align: center;
+  margin: 3em;
+}
+
+.BlueArrow img{
+  width: 10%;
+  height: 10%;
+}
+
+.section2-BG{
+  background: #FFFDF6;
+  position: relative;
+  min-height: 789px;
+}
+
+.section2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  padding-top: 3em;
+}
+
+.two-column-grid-right{
+  width: 80%;
+  margin-top: 15%;
+}
+
+.section2-paragraph{
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.Star_Yellow{
+  position: absolute;
+width: 46px;
+height: 44px;
+left: 79%;
+top: 60%;
+}
+
+.Star_Bluer{
+  position: absolute;
+width: 44px;
+height: 48px;
+left: 76%;
+top: 67%;
+}
+
+
+.section3-BG{
+    background-image: url(../img/Daisy/world-map-EN.png);
+    min-height: 1102px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.section3-divider{
+  border-bottom: #FBF8EC solid 3px;
+  width: 12%;
+  margin: auto;
+}
+
+
+.learnmore{
+
+ display: block;
+ margin-left: auto;
+
+ margin-right: auto;
+padding-top: 820px;
+color: #2E7694;
+text-align: center; 
+}
+
+section {
+  margin-bottom: 0px !important; 
+}
+
+
+/* -----------------footer -----------
+
+footer{
+  display: block;
+  height: 159px;
+  background-color: #51BBE8;
+  padding:2em;
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin:0;
+}
+
+.item1{
+  grid-area: 1;
+  padding-top: 30px;
+}
+
+.footer-logo{
+  font-size: 87px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #F6F8F9;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 60px;
+  padding-top: 18px;
+  border-right-width: 1px;
+  border-right-style:solid;
+  border-right-color:#F6F8F9;
+}
+
+.item2{
+  grid-area: 1 / 2 / span 1 / span 2;
+  padding-top: 30px;
+}
+
+.footer-text{
+  color: #F6F8F9;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 11px;
+}
+
+.item6{
+  grid-area: 1 / 5 / span 1 / span 2;
+  margin-left: 6em;
+  padding-top: 15px;
+}
+
+.footer-text1{
+  color: #F6F8F9;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-text2{
+    color: #F6F8F9;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.icon-wechat{
+  height: 45px;
+  width: 45px;
+  margin-right: 6px;
+}
+
+.icon-weibo{
+  height: 45px;
+  width: 45px;
+  margin-right: 6px;
+}
+
+.icon-zhihu{
+  height: 45px;
+  width: 45px;
+  margin-right: 6px;
+}
+
+.icon-facebook{
+  height: 45px;
+  width: 45px;
+}
+
+.item7{
+  grid-area: 1 / 7;
+  background-color: #FFFFFF;
+}
+
+.footer-text3{
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #51BBE8;
+  font-size: 10px;
+  line-height: 12px;
+  margin:4px;
+}
+
+.QRcode{
+  height: 95px;
+  width:  92px;
+  margin-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ end of footer -----------*/
+
+ /* ---------test footer ----------
+
+ footer{
+  background-color: #51BBE8;
+  min-height: 185px;
+  background-image: url(../img/Daisy/Footer-EN.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+ }
+
+ .footer-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin:0;
+}
+
+ .item6{
+  grid-area: 1 / 5 / span 1 / span 2;
+  margin-left: 6em;
+  padding-top: 3em;
+}
+
+.footer-text1{
+  color: #F6F8F9;
+  letter-spacing: 0.18em;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-text2{
+    color: #F6F8F9;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.icon{
+  height: 45px;
+  width: 45px;
+  margin-right: 6px;
+}
+
+
+-----test footer --------------*/
+
+/*  ---------styles.css----------*/
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding:100px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/Daisy/background.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* --------- end of Styles.css----------*/
+
+/* --------sitewide.css ---------*/
+html,body{
+  height: 100%;
+    width: 100%;
+  overflow-x: hidden;
+}
+
+section{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+}
+
+/* --------end of sitewide.css ---------*/
+
+/* ---------------------------media query ---------------------*/
+
+@media (max-width: 1311px) {
+
+  .header-intro{
+    width: 65%;
+  }
+}
+
+@media (max-width: 1216px) {
+
+  .header-intro{
+    width: 70%;
+  }
+}
+@media (max-width: 1156px) {
+
+.section2-paragraph{
+  width: 100%;
+}
+}
+
+
+@media (max-width: 1135px) {
+
+  .header-intro{
+    width: 72%;
+  }
+}
+
+
+@media (max-width: 1106px) {
+
+  .header-intro{
+    width: 60%;
+  }
+}
+
+@media (max-width: 1070px){
+
+.section3-BG{
+    background-size: contain;
+    background-color: #85CFEF;
+}
+.header-subtitle{
+  padding-top: 1em;
+}
+.learnmore{
+padding-top: 770px;
+  width: 70%;
+    }
+
+
+}
+
+@media (max-width: 941px) {
+    .learnmore{
+padding-top: 770px;
+width: 80%;
+}
+
+}
+@media (max-width: 916px) {
+
+  .header-intro{
+    width: 70%;
+  }
+
+
+}
+
+@media (max-width: 904px) {
+
+.two-column-grid-right{
+  width: 100%;
+}
+}
+
+
+
+@media (max-width: 860px) {
+
+.two-column-grid-right{
+  margin-top: 0;
+}
+  .header-intro{
+    width: 65%;
+  }
+
+  .Star_Yellow{
+ display: none;
+}
+
+.Star_Bluer{
+ display: none;
+}
+.section2-BG{
+  min-height: 442px;
+}
+
+}
+
+@media (max-width: 850px) {
+
+.container{
+    width:90%;
+  }
+
+.header-intro{
+    width: 80%;
+  }
+
+.kids{
+  padding:2em;
+}
+
+.section2{
+  display: block;
+}
+
+.two-column-grid-right{
+  width: 80%;
+  margin-top: 0;
+    margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.two-column-grid-left{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button_blue{
+  margin-top: 0.5em;
+}
+
+}
+
+@media (max-width: 834px) {
+
+  .header-subtitle{
+    display: none;
+  }
+.divider{
+  display: none;
+}
+.section3-divider{
+  display: none;
+}
+.header-title{
+  padding-top: 4em;
+}
+.section3-BG{
+    background-size: contain;
+    background-color: #85CFEF;
+    min-height: auto;
+}
+.BlueArrow{
+  display: none;
+}
+.learnmore{
+padding-top: 550px;
+    }
+
+}
+
+
+
+@media(min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 737px){
+  .header-intro{
+    width: 65%;
+  }
+}
+
+@media (max-width: 621px){
+  .header-intro{
+    width: 73%;
+  }
+
+.learnmore{
+  width: 90%
+    }
+
+}
+
+@media (max-width: 557px){
+  .header-intro{
+    width: 80%;
+  }
+}
+
+@media (max-width: 511px){
+  .header-intro{
+    width: 90%;
+  }
+}
+
+@media (max-width: 413px){
+  .header-intro{
+    width: 70%;
+  }
+}
+
+
+
+
+@media (max-width: 450px) {
+
+  .section1-BG{
+    background-image: url(../img/Daisy/about_header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+  }
+
+.header-title{
+  text-align: left;
+  margin-top: 5em;
+  margin-left: 2%;
+}
+
+.header-intro{
+  text-align: left;
+  width: 95%;
+}
+
+
+
+.section2{
+  display: block;
+  max-height: 758px;
+}
+.section2-paragraph{
+  width: 112%;
+}
+
+.two-column-grid-right{
+  width: 88%;
+}
+
+.kids{
+  padding:0;
+}
+
+.section3-BG{
+  background-image: url(../img/Daisy/mobile-map-EN.png);
+  min-height: 1990px;
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.section3-divider{
+  display: none;
+}
+
+.learnmore{
+padding-top: 1770px;
+
+}
+
+.learnmore-text{
+  display: none;
+}
+
+.button_blue{
+  margin-top: 6em;
+}
+}
+
+@media (max-width: 392px){
+  .header-intro{
+    width: 97%;
+  }
+}
+
+@media (max-width: 357px){
+  .header-title{
+  text-align: center;
+  margin-top: 3em;
+
+}
+  .header-intro{
+    width: 80%;
+  }
+}
+
+@media (max-width: 350px){
+  .header-intro{
+    width: 85%;
+  }
+}
+
+
+/* -----------EN footer  media query----------
+@media (max-width: 400px) {
+footer{
+  background-image: url(../img/Daisy/Footer-EN-Mobile.png);
+  min-height: 445px;
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+}
+.item6{
+  grid-area: 2 / 1;
+  padding-left: 3em;
+  padding-top: 13em;
+  margin-left: 0;
+}
+.footer-text2{
+  display: none;
+}
+}
+-----------END OF EN footer  media query----------*/

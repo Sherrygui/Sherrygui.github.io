@@ -1,0 +1,299 @@
+html{
+  background-color: #FBF8EC;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container{
+/*  width: 80%;*/
+  overflow: hidden;
+  margin-bottom: 0 !important;
+  /* padding-bottom: 30px;  */
+}
+/* li{
+  font-weight: lighter;
+  font-size: 1em;
+  letter-spacing: 0.3px;
+} */
+.container h2{
+  margin-top: 40px;
+  line-height: 50px;
+}
+
+section {
+  padding: 0px !important; 
+}
+
+.content_description {
+  text-align: justify;
+}
+
+#title{
+  min-height: 686px;
+  width: 100% !important;
+  max-width: 100% !important; 
+  margin-bottom: 0px !important; 
+  /* background: url(../img/Eric/AI/AI-banner.jpg) no-repeat; */
+  background-position: center;
+  text-align: center;
+}
+
+#title h1{
+  margin: 120px 40px 80px 40px;
+  color: #F6F8F9;
+}
+
+#title p{
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #F6F8F9;
+  line-height: 30px; 
+}
+
+#title b {
+  font-style: italic;
+}
+
+
+
+/*课程介绍*/
+#firstSection img{
+  float:left;
+  width: 50%;
+  max-height: 696px;
+}
+
+#firstSection p{
+  float: right;
+  text-align: left;
+  width: 40%;
+  margin: 30px 5%;
+}
+
+#firstSection h2{
+  float: right;
+  text-align: left;
+  width: 45%;
+  margin-bottom: 0px;
+}
+
+/*课程信息*/
+#secSection img{
+  float:right;
+  width: 50%;
+}
+
+#secSection p,ul,h2{
+  float:left;
+  margin-top: -10px;
+  /* width: 40%; */
+  /* margin-left: 5%; */
+}
+
+#secSection ul{
+  margin-top: -10px
+}
+
+
+#star_list li:nth-child(3n+1){
+  list-style-image: url(../img/Cong/star1.png);
+}
+#star_list li:nth-child(3n+2){
+  list-style-image: url(../img/Cong/star2.png);
+}
+#star_list li:nth-child(3n+3){
+  list-style-image: url(../img/Cong/star3.png);
+}
+
+/*课程内容*/
+#thirdSection img{
+  float:left;
+  width: 50%;
+  max-height: 696px;
+}
+
+#thirdSection p{
+  float: right;
+  text-align: left;
+  width: 40%;
+  margin: 30px 5%;
+}
+
+#thirdSection h2{
+  float: right;
+  text-align: left;
+  width: 45%;
+  margin-bottom: 0px;
+}
+
+#lastSection {
+  width: 100% !important;
+  max-width: 100% !important; 
+}
+
+#lastSection p{
+  /* float: left; */
+  width: 60%;
+  margin: 2% 0% 2% 5%;
+}
+
+#lastSection a{
+  color: #F6F8F9;
+  text-align: center;
+  float: right;
+  margin: 5%;
+  width: 20%;
+  background: #51BBE8;
+  border-radius: 8px;
+}
+
+.content_half {
+  height: 75%; 
+  display: table; 
+  width: 100%;
+}
+
+.half_style {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.center_style {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title em {
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3.title_name {
+  line-height: 30px; 
+  text-align: left; 
+  /* margin-top: 0px; */
+}
+
+/* img.full-height {
+  height: 100%;
+} */
+
+.img_display {
+  display: none;
+}
+
+@media(max-width: 600px){
+  #star_list li{
+    font-size: 0.8em;
+  }
+  .container{
+    float: none;
+    width:100%;
+    text-align: center;
+  }
+  #title{
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+  }
+  #title h1{
+    font-size: 30px;
+        margin: 50px 10pX
+  }
+  #title p{
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+  }
+  #firstSection img{
+    display: none;
+} 
+  #firstSection p{
+    margin: 0% 10%;
+    width: 80%;
+  }
+  #firstSection h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+/*---*/
+  #secSection img{
+    width: 100%;
+    margin-top: 50px;
+  }
+  #secSection h2{
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+  #secSection ul,p{
+    width: 100%;
+    text-align: left;
+  }
+/*  ---*/
+  
+  #thirdSection img{
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  #thirdSection p{
+    margin: 0% 10%;
+    width: 80%;
+  }
+  #thirdSection h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  #lastSection p{
+    width:80%;
+    margin: 60px 10%;
+  }
+  #lastSection a{
+    color: #F6F8F9;
+    text-align: center;
+    
+    margin: 5%;
+    margin-top: 10%;
+    width: 90%;
+    background: #51BBE8;
+    border-radius: 8px;
+  }
+
+  .half_style {
+    width: 100%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  img.full-height {
+    height: auto;
+  }
+
+  .img_display {
+    display: block;
+  }
+
+  .img_display_none {
+    display: none;
+  }
+
+  .button_white_EN {
+    margin-top: 0px !important; 
+    margin-left: 0px !important;
+  }
+
+  button {
+    margin-bottom: 25px !important; 
+  }
+}

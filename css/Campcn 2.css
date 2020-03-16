@@ -1,0 +1,446 @@
+html{
+  background-color: #FBF8EC;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container{
+/*  width: 80%;*/
+  overflow: hidden;
+}
+li{
+  font-weight:lighter;
+  font-size: 1em;
+  letter-spacing: 3px;
+  
+}
+
+.container h2{
+  line-height: 1.2em;
+  margin-top: 100px;
+}
+.title{
+  min-height: 637px;
+  background: url(../img/Cong/BlueHeaderBG-withStars.png) no-repeat;
+  text-align: center;
+  background-position: center;
+}
+
+.title h1{
+  color: #221916;
+  margin-top: 100px;
+}
+.title #info{
+  text-decoration: none;
+  margin: 0% 30%;
+}
+.title p{
+    color: #221916;
+}
+
+/*IFU & DMA*/
+#firstSection{
+  background: rgba(81, 187, 232, 0.7);
+  
+  
+}
+#firstSection img{
+  
+  float:right;
+  margin: 120px 0% 80px 5%;
+  width: 45%;
+  max-height: 696px;
+}
+
+#firstSection p{
+  float: left;
+  text-align: left;
+  width: 40%;
+  margin: 30px 0% 80px 10%;
+}
+
+#firstSection h2{
+  float: left;
+  text-align: left;
+  width: 30%;
+  margin-left: 10% 
+}
+
+/*住宿环境*/
+#secSection img{
+  margin: 120px 5% 80px 0%;
+
+  float:left;
+  width: 50%;
+}
+
+#secSection h2{
+  float:right;
+  width: 40%;
+}
+
+#secSection p{
+  float:right;
+  width: 40%;
+  margin-right: 5%;
+}
+
+#secSection ul{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  float:right;
+  width: 40%;
+}
+li:nth-child(3n+1){
+  list-style-image: url(../img/Cong/star3.png);
+}
+li:nth-child(3n+2){
+  list-style-image: url(../img/Cong/star1.png);
+}
+li:nth-child(3n+3){
+  list-style-image: url(../img/Cong/star2.png);
+}
+
+/*学校分部*/
+.neirong{
+  background-image: url(../img/Cong/camp/Webp.net-resizeimage-12.png);
+}
+
+.neirong > h2{
+  padding-top: 80px;
+  margin-left: 10%;
+  color: #F6F8F9;
+}
+
+.grid-container{
+  display: grid;
+  margin-left: 10%;
+  margin-top: 5%;
+  grid-template-columns: 25% 25% 25% 25%;
+/*  justify-items: center;*/
+}
+
+.grid-container li{
+    list-style-image: url(../img/Cong/star2.png);
+}
+.grid-container h3{
+    color: #F6F8F9;
+}
+.grid-container a{
+    color: #F6F8F9;
+
+}
+
+.grid-container a:hover{
+  color: rgba(81, 187, 232, 0.7);
+}
+
+.grid-left li{
+  margin-left: -9% 
+}
+
+.grid-mid-left{
+  margin-left: 0%;
+}
+
+.grid-mid-right{
+  margin-left: 10%;
+}
+
+.grid-mid-right li{
+  margin-left: -10%
+}
+
+.grid-right{
+  margin-left: 10%;
+}
+
+.neirong > li{
+  padding: 5% 8%;
+  color: #F6F8F9;
+}
+
+/*推荐课程*/
+
+.grid-kecheng{
+  display: grid;
+  margin: 0px 5%;
+  grid-template-columns: 33% 33% 33%;
+}
+.grid-kecheng h2{
+  grid-column: 1/4;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.grid-kecheng p{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 170px 0px;
+  text-align: center;
+  color: #F6F8F9;
+}
+
+#AIT{
+  background-image: url(../img/Cong/camp/a43b42_049ee034b08c4ad6a27a55b93b9351c5~mv2_d_5819_3879_s_4_2.png);
+  background-size: cover;
+}
+#ANT{
+  background-image: url(../img/Cong/camp/a43b42_48601bb6fc5249308239a5f6e53b37e6~mv2%E5%89%AF%E6%9C%AC.png);
+  background-size: cover;  
+}
+#RBT{
+  background-image: url(../img/Cong/camp/a43b42_d014adf2b4854e3ab191681128548b3a~mv2_d_5089_2863_s_4_2.png);
+  background-size: cover;
+}
+
+.grid-kecheng a:hover{
+  background-color: #F6F8F9;
+  text-emphasis-color: #221916;
+  opacity: 0.8;
+}
+
+#moreSession{
+  color: #F6F8F9;
+  grid-column: 2/3;
+  margin: 80px ;
+  text-align: center;
+  background: #51BBE8;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#moreSessionMobile{
+  display: none;
+}
+/*住宿*/
+#zhusu{
+  width: 100%;
+}
+#zhusuMobile{
+  display: none;
+}
+
+/*为什么我们*/
+#whyUs h2{
+  text-align: left;
+  margin-right: 80px;
+}
+#whyUs img{
+  float: left;
+  margin: 5% 5% 0% 10%;
+  margin-bottom: 2%;
+  width: 30%
+}
+#moreInfo{
+  list-style: none;
+  width: 25%;
+  margin-top: 0px;
+  margin-left: 15%;
+  margin-right: 20px;
+}
+#whyUs p{
+  margin-left: 0px;
+  width: 40%;
+  text-align: left;
+  float: right;
+  margin-top: 20px;
+  margin-right: 15%;
+}
+
+#SLine{
+  margin: 40px 25%;
+  width: 50%;
+}
+/*额外服务*/
+#fuwu{
+  float: left;
+  margin-left: 10%
+}
+#fuwu p{
+  margin-left: -5%;
+
+  float: left;
+  margin-right: 10%;
+}
+#fuwu h2{
+  margin: auto;
+}
+#fuwu ul{
+  margin-left: -3%;
+  margin-top: 50px; 
+  width: 50%;
+}
+#fuwu img{
+  float: right;
+  margin: 20px;
+  width: 20%
+}
+#faq{
+  color: #F6F8F9;
+  font-size: 1em;
+  text-align: center;
+  float: left;
+  margin: 10%;
+  margin-left: 45%;
+  width: 20%;
+  background: #51BBE8;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 600px) {
+  li{
+      font-weight:lighter;
+      letter-spacing: 3px;  
+      font-size: 0.8em;
+  }
+  .title{
+    min-height: inherit;
+    background-image: none;
+  }
+  .title h1{
+    margin-top: 100px;
+    width: 100%;
+  }
+  .title #info{
+    margin:auto 20px 10px;
+    float: left;
+    text-align: center;
+}
+  #firstSection h2{
+    width: 100%;
+    margin-top: 0;
+  }
+  #firstSection p{
+    margin: 0% 10% 10% 10%;
+    width: auto;
+  }
+  #firstSection img{
+    width: 100%;
+    margin-top: 0;
+  }
+  #secSection{
+    margin-top: 0px;
+  }
+  #secSection img{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #secSection h2{
+    margin: 20px 13%;
+    float:left;
+  }
+  #secSection ul{
+    width: 100%;
+  }
+  
+/*  ---*/
+  .neirong{
+    margin-top: -50px;
+  background-image: url(../img/Cong/camp/tower.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .grid-container{
+    text-decoration: underline;
+    letter-spacing: 4px;
+    display: grid;
+    margin-left: 10%;
+    grid-template-columns: 100%;
+  }
+  .grid-container li{
+      font-size: 1em;
+  }
+  .grid-container h3{
+    margin-top: 50px;
+  }
+  .grid-mid-right{
+    margin-left: 0px;
+  }
+  .grid-mid-right li{
+    margin: 20px;
+  }
+  .grid-right{
+    margin-left: 0px;
+  }
+  .neirong > li{
+    padding: 50px 20px ;
+/*---*/
+    
+  }
+  .grid-kecheng{
+    display:block;
+    margin: 0px 5%;
+  }
+  .grid-kecheng p{
+  padding: 100px 0px;
+}
+  #moreSession{
+    display: none;
+  }
+  #moreSessionMobile{
+    display: block;
+    text-align: center;
+    color: #F6F8F9;
+  margin: 30px ;
+  margin-top: 30px;
+  background: #51BBE8;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+/*  ---*/
+  #zhusu{
+    display: none;
+  }
+  #zhusuMobile{
+    display: block;
+  }
+  #zhusuMobile h2{
+    text-align: center;
+  }
+/*  ---*/
+  #whyUs h2{
+    float: right 10%;
+    margin-top: 40px;
+    margin-bottom: 41px;
+  }
+  #whyUs img{
+    margin-left: 0px;
+    float: left;
+    margin: 16px;
+    width: 20%
+  }
+  #whyUs p{
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+  }
+  #moreInfo{
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  #SLine{
+    margin-left: -0px;
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  #fuwu h2{
+    margin-left: 30px;
+  }
+  #fuwu ul{
+    margin-top: 50px; 
+    width: 100%;
+  }
+  #fuwu img{
+    display: none;
+    margin-top: 0px;
+    margin: 10px;
+    width: 20%
+  }
+  #fuwu a{
+    width: 70%;
+  }
+}

@@ -1,0 +1,10 @@
+#title{
+  background: url(../img/Cong/Robot/arduino-hero.png)repeat;
+}
+
+@media (max-width: 600px) {
+  #title {
+      background-position: center;
+      min-height: 400px;
+  }
+}
