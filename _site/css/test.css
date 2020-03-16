@@ -1,0 +1,161 @@
+.container{
+/*  width: 80%;*/
+  overflow: hidden;
+}
+
+.container h2{
+  margin-top: 100px;
+}
+#title{
+  min-height: 686px;
+  background: url(../img/AI/spencer-_-699369-unsplash.jpg) no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#title h1{
+  margin: 100px 10px;
+  font-family: PingFang SC;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 0.18em;
+    color: #F6F8F9;
+
+}
+
+#title p{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+    color: #F6F8F9;
+}
+
+/*课程介绍*/
+#firstSection img{
+  float:left;
+  width: 50%;
+  max-height: 696px;
+}
+
+#firstSection p{
+  float: right;
+  text-align: left;
+  width: 40%;
+  margin: 30px 5%;
+}
+
+#firstSection h2{
+  float: right;
+  text-align: left;
+  width: 45%;
+}
+
+/*课程信息*/
+#secSection img{
+  float:right;
+  width: 50%;
+}
+
+#secSection p,ul,h2{
+  float:left;
+  width: 40%;
+  margin-left: 5%;
+}
+
+#secSection ul{
+  margin-top: -10px
+}
+
+
+li:nth-child(3n+1){
+  list-style-image: url(../img/star1.png);
+}
+li:nth-child(3n+2){
+  list-style-image: url(../img/star2.png);
+}
+li:nth-child(3n+3){
+  list-style-image: url(../img/star3.png);
+}
+
+/*课程内容*/
+.neirong{
+  background-color: #51BBE8;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 25% 20% 55%;
+/*  justify-items: center;*/
+}
+
+#stars{
+  float:right;
+  width
+}
+
+.grid-container > h2{
+  color: #F6F8F9;
+  grid-column: 1/3;
+  margin-top: 60px;
+  margin-left: 12%;
+
+}
+.grid-left img{
+  padding: 140px;
+}
+.grid-left h2{
+  width: 100%;
+  color: #F6F8F9;
+  text-align: center;
+  padding: 140px 0px;
+}
+
+.grid-right{
+    background: #FFFDF6;
+    border-top: 2px solid rgba(34, 25, 22, 0.15);
+}
+.grid-left{
+    border-top: 2px solid rgba(34, 25, 22, 0.15);
+}
+.grid-right > p{
+  padding: 60px 70px;
+  color: #221916;
+}
+
+#lastSection p{
+  float: left;
+  margin: 5% 0% 5% 5%;
+}
+
+#lastSection a{
+  color: #F6F8F9;
+  text-align: center;
+  float: right;
+  margin: 5%;
+  margin-top: 10%;
+  width: 20%;
+  background: #51BBE8;
+  border-radius: 8px;
+}
+
+@media(max-width: 768px){
+  .container{
+    float: none;
+    width:100%;
+    text-align: center;
+  }
+  #title{
+    background-position: center;
+    min-height: 484px;
+  }
+  #title h1{
+    font-size: 30px;
+        margin: 50px 10px
+
+  }
+  #title p{
+    font-size: 16px;
+  }
+
+}

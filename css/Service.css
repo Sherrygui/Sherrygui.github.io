@@ -1,0 +1,303 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+.section1-BG{
+    background-image: url(../img/Sherry/BlueHeaderBG-withStars.png);
+    /* height: 637px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    width: 100%;
+    display: flex;
+    /* min-height: 600px; */
+    height: auto;
+    /* background-color: #FFFDF6; */
+    align-items: center;
+
+}
+
+.BlueArrow{
+  text-align: center;
+  margin: 3em;
+}
+
+.BlueArrow img{
+  width: 10%;
+  height: 10%;
+}
+
+.header-subtitle, .header-title{
+  text-align:center;
+}
+.divider{
+  border-bottom: #FBF8EC solid 3px;
+  width: 10%;
+  margin: auto;
+}
+
+.header-intro{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+
+
+.square_grid{
+  width: 330px;
+  height: 330px;
+  border-color: #51BBE8;
+  border-radius: 8px;
+  border-style: dashed;
+  border-width: 2px;
+  padding: 2em;
+
+
+}
+
+.square_grid:hover{
+  background: #FFFDF6;
+  color: #F28A87;
+}
+.service_square_grid{
+  width: 100%;
+  height: 330px;
+  /* border-color: #51BBE8; */
+  border-radius: 8px;
+  /* border-style: dashed; */
+  /* border-width: 2px; */
+  padding: 2em;
+  position: relative;
+  background-color: #85CFEF;
+}
+
+.service_square_grid:hover{
+  background-color: rgba(255,253,246,0.8);
+}
+
+.service_square_grid h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.service_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+}
+.service_1, .service_2, .service_3{
+  text-align: center;
+  padding: 140px 0;
+}
+
+.mobile-service-grid-button{
+  display:none;
+}
+/* .service_1{
+  background-image: url(../img/Totoro-BG.png);
+  background-size: contain;
+} */
+
+
+
+
+
+
+
+
+/*font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px; or 150%
+letter-spacing: 0.18em;
+
+color: #221916;
+*/
+
+/* -----------Media Mobile--------------- */
+@media (max-width: 1230px) {
+  .section1-BG{
+      height: 700px;
+  }
+  .service_square_grid{
+    width: 100%;
+    height: 300px;
+  }
+
+
+}
+
+@media (max-width: 1138px) {
+
+  .service_square_grid{
+    width: 100%;
+    height: 280px;
+  }
+
+}
+
+@media (max-width: 1056px) {
+  .section1-BG{
+      background-image: url(../img/Sherry/BlueHeaderBG-withStars-2.png);
+      background-position:center;
+  }
+
+  .BlueArrow{
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .BlueArrow img{
+    width: 15%;
+    height: 15%;
+  }
+  .service_grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .service_square_grid{
+    width: 100%;
+    height: 350px;
+
+  }
+
+  .mobile-service-grid-button{
+    display:none;
+  }
+
+}
+
+@media (max-width: 860px) {
+  .section1-BG{
+      background-image: url(../img/Sherry/BlueHeaderBG-withStars-3.png);
+      background-position: top;
+      height: 650px;
+  }
+  .header-intro{
+    width:80%;
+  }
+
+  .BlueArrow img{
+    width: 10%;
+    height: 10%;
+  }
+
+  .service_square_grid{
+    width: 100%;
+    height: 300px;
+  }
+
+
+
+}
+
+@media (max-width: 738px) {
+  .section1-BG{
+    height: 730px;
+    background-position: top;
+  }
+
+
+  .service_square_grid{
+    width: 280px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media (max-width: 650px) {
+  section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section1-BG{
+    height: 600px;
+  }
+
+  .header-intro{
+    width:95%;
+  }
+
+  .BlueArrow{
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .BlueArrow img{
+    width: 15%;
+    height: 15%;
+  }
+
+  .service_grid{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .service_square_grid{
+    margin-bottom: 5%;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobile-service-grid-button{
+    display: block;
+  }
+
+  .web-service-grid-title{
+    display: none;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .section1-BG{
+    height: 550px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section1-BG{
+    /* height: 450px; */
+  }
+}
+
+@media (max-width: 400px) {
+  .service_square_grid{
+    margin-bottom: 5%;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}

@@ -1,0 +1,104 @@
+.header_CN{
+    font-family: PingFang SC;
+    font-size: 30px;
+}
+
+.body_CN{
+    font-family: Ping Hei;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+
+.h1_CN{
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: 4.5vw;
+    line-height: 45px;
+    letter-spacing: 0.18em;
+}
+
+.h1_EN{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 4.5vw;
+    line-height: 45px;
+    letter-spacing: 0.18em;
+}
+
+
+.title_CN{
+    font-family: PingFang SC;
+    font-weight: 500;
+    font-size: 6vw;
+    line-height: 101px;
+    letter-spacing: 0.18em;
+}
+
+.title_EN{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 6vw;
+    line-height: 101px;
+    letter-spacing: 0.1em;
+}
+
+.header_EN{
+    font-family: Avenir;
+    font-size: 28px;
+}
+
+.body_EN{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+
+.navbar_CN{
+    font-family: Ping Hei;
+    font-style: Semibold;
+    font-size: 20px;
+    letter-spacing: 10%;
+}
+
+
+.navbar_EN{
+    font-family: Avenir;
+    font-style: Medium;
+    font-size: 23px;
+    letter-spacing: 10%;
+}
+
+.footer_CN{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 86.8519px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+}
+
+@media (max-width: 600px) {
+    .title_CN{
+        font-family: PingFang SC;
+        font-size: 28px;
+        line-height: 42px;
+        /* or 150% */
+
+        letter-spacing: 0.1em;
+    }  
+    
+    .h1_CN{
+        font-size:7.5vw;
+        text-align: center;
+    }
+
+    .h1_EN{
+        font-size:7.5vw;
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+#title{
+  background: url(../img/Cong/3D/DMA-Maya-hero-2.jpg) no-repeat;
+}
+
+@media (max-width: 600px) {
+  #title {
+      background-position: center;
+      min-height: 400px;
+  }
+}

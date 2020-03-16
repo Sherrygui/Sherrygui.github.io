@@ -1,0 +1,78 @@
+html{
+  background-color: #FBF8EC;
+  width: 100%;
+  overflow-x: hidden;
+}
+p{
+  margin-left: 4%;
+  font-weight:lighter;
+  font-size: 1em;
+  letter-spacing: 3px;
+}
+.title{
+ text-align: center;
+  margin-top: 80px;
+}
+#menu{
+  position: fixed;
+  /* float: left; */
+  width: 10%;
+  margin-left: 3%;
+  text-align: center;
+  background: #51BBE8;
+  border-radius: 8px;
+  padding: 40px 10px; 
+}
+#menu a{
+  line-height: 40px;
+}
+
+/*问题*/
+.container >li{
+  font-family: "PingFang SC", sans-serif;
+  font-weight: bold;
+  font-size: 1.35em;
+  letter-spacing: 5px;
+  margin-top: 60px;
+  list-style-image: url("../img/Cong/bigStar3.png");
+} 
+
+/*回答中list*/
+.insideList li{
+    list-style-image: url("../img/Cong/star2.png");
+    font-weight:lighter;
+    letter-spacing: 3px;
+}
+.insideList{
+  margin-left: 5%;
+}
+/*回答*/
+#QA{
+  /* float: right; */
+  width: 60%;
+  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 600px) {
+  #menu{
+    display: none;
+  }
+  .container > li{
+        font-size: 1.2em;
+  }
+  li{
+    line-height: 1.2em;
+  }
+  img{
+    width: 100%;
+  }
+  #QA{
+    width: 80%;
+  }
+  .insideList{
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,283 @@
+html{
+  background-color: #FBF8EC;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container{
+/*  width: 80%;*/
+  overflow: hidden;
+}
+
+.container h2{
+  margin-top: 100px;
+}
+
+#title{
+  min-height: 686px;
+  background: url(../img/Cong/AI/spencer-_-699369-unsplash.jpg) no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#title b {
+  font-style: italic;
+}
+
+#title h1{
+  margin: 140px 10px;
+  font-family: PingFang SC;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 0.18em;
+  color: #F6F8F9;
+
+}
+
+section {
+  width: 100% !important; 
+  max-width: 100% !important; 
+}
+
+
+#title p{
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #F6F8F9;
+  line-height: 30px; 
+}
+
+#title em {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*课程介绍*/
+#firstSection img{
+  float:left;
+  width: 50%;
+  max-height: 696px;
+}
+
+#firstSection p{
+  float: right;
+  text-align: left;
+  width: 40%;
+  margin: 30px 5%;
+}
+
+#firstSection h2{
+  float: right;
+  text-align: left;
+  width: 45%;
+}
+
+/*课程信息*/
+#secSection h2{
+  margin-top: 60px;
+}
+#secSection img{
+  float:right;
+  width: 50%;
+}
+
+#secSection p,h2{
+  float:left;
+  margin-top: -10px;
+  width: 40%;
+  margin-left: 5%;
+}
+
+#secSection p,ul,h2{
+  float: none;
+  margin-top: 0px;
+}
+
+#secSection ul{
+  margin-top: -10px
+}
+
+
+.star_style_list li:nth-child(3n+1){
+  list-style-image: url(../img/Cong/star1.png);
+}
+.star_style_list li:nth-child(3n+2){
+  list-style-image: url(../img/Cong/star2.png);
+}
+.star_style_list li:nth-child(3n+3){
+  list-style-image: url(../img/Cong/star3.png);
+}
+
+/*课程内容*/
+.neirong{
+  background-color: #51BBE8;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 25% 20% 55%;
+/*  justify-items: center;*/
+}
+
+#stars{
+  float:right;
+  max-width: 33%;
+  margin: auto;
+}
+
+.grid-container > h2{
+  color: #F6F8F9;
+  grid-column: 1/3;
+  padding-top: 20px;
+  margin-left: 12%;
+}
+.grid-left img{
+  margin: 22%;
+  padding: 40px;
+  min-width: 35%;
+}
+.grid-left h3{
+  width: 100%;
+  color: #F6F8F9;
+  text-align: center;
+  margin: 50% 0%;
+}
+
+.grid-right{
+    background: #FFFDF6;
+    border-top: 2px solid rgba(34, 25, 22, 0.15);
+}
+.grid-left{
+    border-top: 2px solid rgba(34, 25, 22, 0.15);
+}
+.grid-right > p{
+  width: 90%;
+  margin: 10% 5%;
+  color: #221916;
+}
+
+#lastSection p{
+  float: left;
+  margin: 5% 0% 5% 5%;
+}
+
+#lastSection a{
+  color: #F6F8F9;
+  text-align: center;
+  float: right;
+  margin: 5%;
+  margin-top: 10%;
+  width: 20%;
+  background: #51BBE8;
+  border-radius: 8px;
+}
+
+
+
+@media(max-width: 600px){
+  #star_list li{
+    font-size: 0.8em;
+  }
+  .container{
+    float: none;
+    width:100%;
+    text-align: center;
+  }
+  #title{
+    background-position: center;
+    min-height: 400px;
+  }
+  #title h1{
+    font-size: 30px;
+        margin: 50px 10pX
+  }
+  #title p{
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+  }
+  #firstSection img{
+    display: none;
+} 
+  #firstSection p{
+    margin: 0% 10%;
+    width: 80%;
+  }
+  #firstSection h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+/*---*/
+  #secSection img{
+    width: 100%;
+    margin-top: 50px;
+  }
+  #secSection h2{
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+  #secSection ul,p{
+    width: 100%;
+    text-align: left;
+  }
+/*  ---*/
+  .neirong{
+    margin-top: 20px;
+  }
+  #stars{
+    
+  }
+  .grid-container{
+  display: block;
+  grid-template-columns: 100%;
+  justify-items: center;
+  }
+  .grid-container > h2{
+    width: 100%;
+    margin-left: 35%;
+    color: #221916;
+    
+  }
+  .grid-left h3{
+    font-size: 1em;
+    width: 100%;
+    color: #221916;
+    text-align: center;
+    margin: 0;
+  }
+    .grid-container img{
+      display: none;
+  }
+  .grid-right{
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-top: none;
+    border-bottom: 2px solid rgba(34, 25, 22, 0.15);
+    background: none;
+  }
+  .grid-left{
+    border: none;
+  }
+  
+  
+  #lastSection a{
+    color: #F6F8F9;
+    text-align: center;
+    
+    margin: 5%;
+    margin-top: 10%;
+    width: 90%;
+    background: #51BBE8;
+    border-radius: 8px;
+  }
+
+  button {
+    margin-bottom: 25px !important; 
+  }
+}

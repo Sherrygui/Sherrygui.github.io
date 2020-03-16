@@ -1,0 +1,10 @@
+#title{
+    background: url(../img/Cong/AI/spencer-_-699369-unsplash.jpg) no-repeat;
+}
+
+@media (max-width: 600px) {
+  #title {
+      background-position: center;
+      min-height: 400px;
+  }
+}

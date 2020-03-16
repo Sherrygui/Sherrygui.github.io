@@ -1,0 +1,46 @@
+.section1-BG{
+    background-image: url(../img/Daisy/BlueHeaderBG-withStars.png);
+    height: 796px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.divider{
+  border-bottom: #FBF8EC solid 3px;
+  width: 3%;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 0px !important; 
+}
+
+.header-subtitle{
+   text-align:center;
+   padding-top:5em;
+}
+
+.header-title{
+  text-align:center;
+}
+
+.header-title{
+  padding-top: 4em;
+}
+.header-intro{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.BlueArrow{
+  text-align: center;
+  margin: 8em;
+}
+
+.BlueArrow img{
+  width: 5%;
+  height: 5%;
+}

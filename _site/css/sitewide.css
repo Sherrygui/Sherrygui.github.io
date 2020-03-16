@@ -1,0 +1,246 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/*
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
+html,body{
+	height: 100%;
+}
+.container {
+	/*width: 80%;
+	max-width: 1200px;
+	margin: 5em;   /*maybe 2em
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2em;
+	background-color: #F0F0F0; */
+	margin-bottom: 5em;
+}
+
+
+section{
+	width: 80%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2em;
+	margin-bottom: 80px;
+
+}
+
+nav{
+	/* height: 150px; */
+	background: #51BBE8;
+	color: #F6F8F9;
+}
+
+.button_blue{
+	background-color: #51BBE8; /* Blue */
+  border: none;
+  color: #F6F8F9;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;  /*same size as the paragraph*/
+	line-height: 1.5em;
+	border-radius: 8px;
+	letter-spacing: 3px;
+}
+
+.button_blue_EN{
+	background-color: #51BBE8; /* Blue */
+  border: none;
+  color: #F6F8F9;
+  padding: 14px 20px 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;  /*same size as the paragraph*/
+	line-height: 1.5em;
+	font-weight: lighter;
+	border-radius: 6px;
+	letter-spacing: 3px;
+}
+
+.button_blue:hover,
+.button_blue_EN:hover {
+	background-color: #FFF8DF;
+    color: #51BBE8;
+    cursor: pointer; 
+}
+
+.button_white{
+  background-color: #FFFDF6; /* Green */
+  border: none;
+  color: #51BBE8;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;  /*same size as the paragraph*/
+  border-radius: 8px;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+.button_white_EN{
+  background-color: #FFFDF6; /* Blue */
+  border: none;
+  color: #51BBE8;
+  padding: 14px 20px 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;  /*same size as the paragraph*/
+  font-weight: lighter;
+  border-radius: 6px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.button_white:hover,
+.button_white_EN:hover{
+  background-color: #51BBE8;
+    color: #FFFDF6;
+    cursor: pointer; 
+}
+
+.footer{
+	height: 150px;
+	background: #51BBE8;
+	color: #F6F8F9;
+	position: bottom;
+
+}
+
+/* -------------Header Star ------------ */
+
+.star_b{
+    width:44px;
+    height: 48px;
+}
+
+.star_y{
+    width:50px;
+    height: 50px;
+
+}
+
+.star_w{
+    width:44px;
+    height: 48px;
+}
+
+.star_l1{
+    position: absolute;
+    left: 7%;
+    top: 25%;
+}
+
+.star_l2{
+    position: absolute;
+    left: 3%;
+    top: 38%;
+}
+
+.star_l3{
+    position: absolute;
+    left: 9%;
+    top: 48%;
+}
+
+.star_l4{
+    position: absolute;
+    left: 5%;
+    top: 58%;
+}
+
+.star_l5{
+    position: absolute;
+    left: 12%;
+    top: 73%;
+}
+
+.star_r1{
+    position: absolute;
+    right: 8%;
+    top: 29%;
+}
+
+.star_r2{
+    position: absolute;
+    right: 11%;
+    top: 38%;
+}
+
+.star_r3{
+    position: absolute;
+    right:6%;
+    top: 50%;
+}
+
+.star_r4{
+    position: absolute;
+    right: 13%;
+    top: 70%;
+}
+/* -----------Header Start END----------- */
+
+
+/* ------------------------------------------------------------ */
+/* media query containing styles for larger screens */
+@media (max-width: 720px) {
+
+	}
+
+
+@media (max-width: 860px) {
+	section{
+		width:95%;
+		padding:1em;
+	}
+
+
+
+	}
+	@media (max-width: 320px) {
+		/* .container{
+			width:100%;
+		} */
+
+
+
+	}
+
+
+ /* end media query */

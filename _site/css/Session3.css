@@ -1,0 +1,259 @@
+html{
+  background-color: #FBF8EC;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container{
+/*  width: 80%;*/
+  overflow: hidden;
+}
+
+/* li{
+  font-weight: lighter;
+  font-size: 1em;
+  letter-spacing: 0.3px;
+} */
+
+.container h2{
+  margin-top: 40px;
+  line-height: 50px;
+}
+#title{
+  min-height: 686px;
+  background: url("../img/Cong/Robot/arduino-hero.png") no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#title h1{
+  margin: 120px 40px 80px 40px;
+  color: #F6F8F9;
+}
+
+#title p{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+    color: #F6F8F9;
+}
+
+/*课程介绍*/
+#firstSection img{
+  float:left;
+  width: 50%;
+  max-height: 696px;
+}
+
+#firstSection p{
+  float: right;
+  text-align: left;
+  width: 40%;
+  margin: 30px 5%;
+}
+
+#firstSection h2{
+  float: right;
+  text-align: left;
+  width: 45%;
+}
+
+/*课程信息*/
+#secSection img{
+  float:right;
+  width: 50%;
+}
+
+#secSection p,ul,h2{
+  float:left;
+  margin-top: -10px;
+  /* width: 40%; */
+  margin-left: 5%;
+}
+
+#secSection ul{
+  margin-top: -10px
+}
+
+
+li:nth-child(3n+1){
+  list-style-image: url(../img/Cong/star1.png);
+}
+li:nth-child(3n+2){
+  list-style-image: url(../img/Cong/star2.png);
+}
+li:nth-child(3n+3){
+  list-style-image: url(../img/Cong/star3.png);
+}
+
+/*课程内容*/
+
+
+#thirdSection img{
+  float:left;
+  width: 50%;
+}
+
+
+#thirdSection p{
+  float: right;
+  text-align: left;
+  width: 40%;
+  margin: 30px 5%;
+}
+
+#thirdSection h2{
+  float: right;
+  text-align: left;
+  width: 45%;
+  margin-bottom: 0px;
+}
+
+
+#lastSection p{
+  float: left;
+  width: 60%;
+  margin: 5% 0% 5% 5%;
+}
+
+#lastSection a{
+  color: #F6F8F9;
+  text-align: center;
+  float: right;
+  margin: 5%;
+  width: 20%;
+  background: #51BBE8;
+  border-radius: 8px;
+}
+
+#title p{
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #F6F8F9;
+  line-height: 30px; 
+}
+
+#title em {
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.button_blue{
+	background-color: #51BBE8; /* Blue */
+  border: none;
+  color: #F6F8F9;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;  /*same size as the paragraph*/
+	line-height: 1.5em;
+	border-radius: 8px;
+	letter-spacing: 3px;
+}
+
+.button_blue_EN{
+	background-color: #51BBE8; /* Blue */
+  border: none;
+  color: #F6F8F9;
+  padding: 14px 20px 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;  /*same size as the paragraph*/
+	line-height: 1.5em;
+	font-weight: lighter;
+	border-radius: 6px;
+	letter-spacing: 3px;
+}
+
+.button_blue:hover,
+.button_blue_EN:hover {
+	background-color: #FFF8DF;
+    color: #51BBE8;
+    cursor: pointer; 
+}
+
+@media(max-width: 600px){
+  li{
+    font-size: 0.8em;
+  }
+  .container{
+    float: none;
+    width:100%;
+    text-align: center;
+  }
+  #title{
+    background-position: center;
+    min-height: 400px;
+  }
+  #title h1{
+    font-size: 30px;
+        margin: 50px 10pX
+  }
+  #title p{
+    font-size: 16px;
+  }
+  #firstSection img{
+    display: none;
+} 
+  #firstSection p{
+    margin: 0% 10%;
+    width: 80%;
+  }
+  #firstSection h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+/*---*/
+  #secSection img{
+    width: 100%;
+    margin-top: 50px;
+  }
+  #secSection h2{
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+  #secSection ul,p{
+    width: 100%;
+    text-align: left;
+  }
+/*  ---*/
+  #thirdSection img{
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  #thirdSection p{
+    margin: 0% 10%;
+    width: 80%;
+  }
+  #thirdSection h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  #lastSection p{
+    width:80%;
+    margin: 60px 10%;
+  }
+  #lastSection a{
+    color: #F6F8F9;
+    text-align: center;
+    
+    margin: 5%;
+    margin-top: 10%;
+    width: 90%;
+    background: #51BBE8;
+    border-radius: 8px;
+  }
+  button {
+    margin-bottom: 25px !important; 
+  }
+}
